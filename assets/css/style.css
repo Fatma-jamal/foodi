@@ -10,6 +10,7 @@
     --lightGray:#888686;
     --lightWhite:#c1f1c6;
     --morelightWhite:#efefef;
+    --lightYellow:#ffe8ad;
     /* --moredarkGray:#888686; */
 }
 *{
@@ -243,6 +244,9 @@ a:link.active,.fa-arrow-down{
     float: left;
     margin-top: 0;
 }
+.Section4{
+
+}
 .catagories-container h3,.catagories-container p{
     text-align: center;
 }
@@ -333,42 +337,47 @@ a:link.active,.fa-arrow-down{
     height: 400px;
 }
 .chef-card{
-    margin-left: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
     margin-top: 5%;
 }
 .chef-info{
     margin-left: 5%;
     width: 400px;
 }
-.chef-info p{
+.chef-info p,.chef-info h1,.layers{
     clear: both;
     margin-left: 11%;
 }
+.chef-info .Section4{
+    width: 470px;
+    color:var(--darkGray);
+    line-height: 1.5;
+    font-size: 20px;
+}
 .img-layers img{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     border: 4px solid var(--whiteColor);
     margin: 0;
 }
 .img-layers .img1{
-    position: absolute;
-    z-index: 1;
+    background-color: var(--lightYellow);
 }
 .img-layers .img2{
-    position: absolute;
-    z-index: 2;
-    /* left: 38%; */
+    margin-left: -28px;
 }
 .img-layers .img3{
-    position: absolute;
-    z-index: 3;
+   margin-left: -30px;
 }
 .img-layers{
-    padding-top: 30px;
+    padding-top: 15px;
 }
 .layers-info h3{
     margin-bottom: 0;
+    text-transform: capitalize;
 }
 .layers{
 
