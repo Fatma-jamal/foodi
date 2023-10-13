@@ -13,7 +13,7 @@
     /* --moredarkGray:#888686; */
 }
 *{
-    
+    font-family: sans-serif;
 }
 .nav{
     display: flex;
@@ -52,7 +52,7 @@ a:link.active,.fa-arrow-down{
     width: 18px;
     height: 18px;
     position: absolute;
-    right: 15.5%;
+    right: 14%;
     top:6.5%;
     text-align: center;
     border-radius: 20px;
@@ -157,12 +157,13 @@ a:link.active,.fa-arrow-down{
     box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
     padding-left: 15px;
     padding-top: 10px;
-    left: 55%;
-
-
+    left: 60%;
+}
+.menu1{
+    left: 65%;
 }
 .menu2{
-    left: 80%;
+    left: 83%;
 
 }
 .img-menu h4{
