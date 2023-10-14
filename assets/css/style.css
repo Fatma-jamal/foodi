@@ -326,15 +326,32 @@ a:link.active,.fa-arrow-down{
     display: inline;
     /* float: left; */
 }
+.span-star2,.star-salad2{
+    float: left;
+    margin-right: 5px;
+}
 .star-salad,.span-star{
     float: right;
 }
 .span-price{
     color: var(--lightRedColor);
 }
+.chef-img-container{
+    background-color: var(--greenColor);
+    width: 310px;
+    height: 200px;
+    margin-top: 15%;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 80px;
+    border-top-left-radius: 80px;
+
+}
 .chef img{
     width: 300px;
     height: 400px;
+    position: absolute;
+    left: 21%;
 }
 .chef-card{
     margin-left: auto;
@@ -379,8 +396,35 @@ a:link.active,.fa-arrow-down{
     margin-bottom: 0;
     text-transform: capitalize;
 }
-.layers{
-
+.layers-info p{
+    color: var(--darkGray);
+    display: contents;
+}
+.layers-info div{
+    padding-top: 10px;
+}
+.best-chef{
+    background-color: var(--whiteColor);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    height: 20px;
+    padding: 10px;
+    top:310%;
+    left:35%
+}
+.pizza,.emoji-delicious{
+    position: absolute;
+    top:290%;
+    font-size: 20px;
+}
+.pizza{
+    left: 43.5%;
+}
+.emoji-delicious{
+    left: 20%;
 }
 .services{
     margin-left: 15%;
