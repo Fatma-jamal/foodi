@@ -54,7 +54,7 @@ a:link.active,.fa-chevron-down,.links a:hover{
     width: 18px;
     height: 18px;
     position: absolute;
-    right: 14%;
+    right: 13%;
     top:6.5%;
     text-align: center;
     border-radius: 20px;
@@ -124,6 +124,12 @@ a:link.active,.fa-chevron-down,.links a:hover{
 .watch-video{
     background-color: var(--whiteColor);
 }
+.watch-video:hover{
+    background-color: var(--glowGreenColor);
+    color: var(--whiteColor);
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+
+}
 .order-now:hover{
     color: var(--glowGreenColor);
     background-color: var(--whiteColor);
@@ -135,12 +141,13 @@ a:link.active,.fa-chevron-down,.links a:hover{
     border-radius: 50px;
     color: var(--blackColor);
     box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
-    width: 30px;
+    width: 40px;
     height: 30px;
-    padding-top: 15px;
     padding: 5px;
     text-align: center;
     font-size: 20px;
+    padding-top: 15px;
+
 }
 .info-btn,.fa-play{
     cursor: pointer;
@@ -225,6 +232,9 @@ a:link.active,.fa-chevron-down,.links a:hover{
     margin-right: auto;
     margin-top: 10px;
 }
+.catagories-img img:hover{
+    transform: scale(1.5);
+}
 .catagories-img img{
     width: 80px;
     height: 80px;
@@ -256,9 +266,13 @@ a:link.active,.fa-chevron-down,.links a:hover{
     margin-top: 0;
     line-height: 1.5;
 }
-.catagories2{
+.catagories2,.catagories3{
     float: left;
     margin-top: 0;
+}
+.fav3,.catagories3{
+    margin-left: 17%;
+    
 }
 .Section4{
 
@@ -313,7 +327,7 @@ a:link.active,.fa-chevron-down,.links a:hover{
     clear: both;
 }
 .salad-card{
-    width: 250px;
+    width: 260px;
     height: 300px;
     box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
     margin-left: 20px;
@@ -327,6 +341,16 @@ a:link.active,.fa-chevron-down,.links a:hover{
     display: block;
     padding-top: 30px;
     margin-left: auto;
+}
+.salad-card img:hover{
+    animation-name: rotate-img;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+@keyframes rotate-img{
+    to{
+        transform: rotate(360deg);
+    }
 }
 .card{
     margin-left: auto;
